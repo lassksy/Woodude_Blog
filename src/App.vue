@@ -1,0 +1,118 @@
+<script setup lang="ts">
+
+</script>
+
+<template>
+  <div class="grid-container home">
+    <header class="site-header">
+    <nav class="site-nav">
+      <a class="site-brand" href=" " title="home">
+        Woodude./Blog
+      </a>
+        <div class="site-links">
+        <a class="link">Home</a>
+        <a class="link">Blog</a>
+        <a class="link">Notes</a>
+        <a class="link">Rss</a>
+
+      </div>
+    </nav>
+
+  </header>
+  <main class="main-view">
+    <svg class="main-icon" height="200px" width="200px" viewBox="-102.4 -102.4 1228.80 1228.80"  version="1.1" xmlns="http://www.w3.org/2000/svg" fill="#000000" transform="matrix(1, 0, 0, 1, 0, 0)" stroke="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0" transform="translate(0,0), scale(1)"><path transform="translate(-102.4, -102.4), scale(38.4)" d="M16,31.059430308640003C18.365995370556842,31.135566233793853,20.2693760510708,29.184497827706206,22.203166158881366,27.81914564181077C23.95363908588633,26.583224521114282,25.38715038020693,25.068398506803945,26.785239808741963,23.444513524861083C28.31748417978813,21.664807182745644,30.570233727038637,20.13469466591381,30.82872538084719,17.80053324440074C31.087366693311065,15.46502041577449,28.85493318205179,13.635460292365384,28.118639730224977,11.404006180359541C27.34252561323732,9.051869225398212,28.13522688963754,6.031988506237757,26.37169040018165,4.292781667520785C24.62085598258794,2.566101663593262,21.71086369418258,3.066173630781968,19.281033647035734,2.6883232162311703C17.036115585274985,2.3392275166101633,14.819642580496124,1.7336263238547598,12.586046674348502,2.1490468813072106C10.289260044820121,2.5762201132073566,8.087876711232942,3.5460707916316077,6.339298390206785,5.095322109807489C4.590755150881157,6.6445423453774985,3.553543104356634,8.782243010714057,2.6621979170340015,10.941638888066734C1.752843308890947,13.144664853544914,0.9959794346291228,15.428858395901507,1.0908718165948041,17.810295912143946C1.1895736856518235,20.287337051027414,1.530308239853893,23.006344588205888,3.215387093319819,24.82458112954984C4.886709777630003,26.627974466745556,7.792914241273763,26.348783326793267,10.002883995348641,27.426549873781024C12.134571929462487,28.466139641817055,13.629552401181556,30.983151114178906,16,31.059430308640003" fill="#ffffff" strokewidth="0"></path></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="34.816"></g><g id="SVGRepo_iconCarrier"><path d="M512 960c-92.8 0-160-200-160-448S419.2 64 512 64s160 200 160 448-67.2 448-160 448z m0-32c65.6 0 128-185.6 128-416S577.6 96 512 96s-128 185.6-128 416 62.4 416 128 416z" fill="#050D42"></path><path d="M124.8 736c-48-80 92.8-238.4 307.2-363.2S852.8 208 899.2 288 806.4 526.4 592 651.2 171.2 816 124.8 736z m27.2-16c33.6 57.6 225.6 17.6 424-97.6S905.6 361.6 872 304 646.4 286.4 448 401.6 118.4 662.4 152 720z" fill="#050D42"></path><path d="M899.2 736c-46.4 80-254.4 38.4-467.2-84.8S76.8 368 124.8 288s254.4-38.4 467.2 84.8S947.2 656 899.2 736z m-27.2-16c33.6-57.6-97.6-203.2-296-318.4S184 246.4 152 304 249.6 507.2 448 622.4s392 155.2 424 97.6z" fill="#050D42"></path><path d="M512 592c-44.8 0-80-35.2-80-80s35.2-80 80-80 80 35.2 80 80-35.2 80-80 80zM272 312c-27.2 0-48-20.8-48-48s20.8-48 48-48 48 20.8 48 48-20.8 48-48 48zM416 880c-27.2 0-48-20.8-48-48s20.8-48 48-48 48 20.8 48 48-20.8 48-48 48z m448-432c-27.2 0-48-20.8-48-48s20.8-48 48-48 48 20.8 48 48-20.8 48-48 48z" fill="#2F4BFF"></path></g></svg>
+    <h1 class="main-name">
+      Welcome To Woodude./Blog ! 👻
+    </h1>
+    <h2 class="main-title">[I love the web]</h2>
+    <p class="main-p">
+      This website is supposed to be part portfolio, part rambling space. A place where I’ll try show my skills and projects, and also brag about them as much as possible. Because it’s my website right? I’m allowed to do that!
+    </p>
+    <a class="action-text">
+      GO TO BLOG ->
+    </a>
+  </main>
+  </div>
+  
+</template>
+
+<style scoped>
+  .site-header {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px; 
+    margin:  25px auto; 
+  }
+
+  .site-brand {
+    font-weight: bold;
+    
+  }
+  .site-nav {
+    display: flex;
+  }
+  .site-links {
+    display: flex;
+    margin:  auto 0 0 auto;
+  }
+  .link {
+    margin-left: 20px;
+    padding: 5px;
+  }
+
+  .main-view {
+    padding: 30px;
+  }
+  .main-name {
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 1000;
+  }
+  .main-title {
+    font-weight: 100;
+    padding:  15px 0;
+    font-size: 1rem;
+    letter-spacing: .1em;
+  }  
+
+  .main-p {
+    max-width: 500px;
+    padding-bottom: 15px;
+  }
+
+  .action-text {
+    margin-top: 20px;
+    color: #005fc7;
+    font-weight: 700;
+    box-shadow: inset 0 -0.1em 0 0 rgba(197,197,211,.5);  
+    letter-spacing: .1em;
+  }
+  .action-text:hover {
+    color: #e3e3e3;
+    transition: 0.4s;
+    box-shadow: inset 0 -0.25em 0 0 rgba(197,197,211,.5);
+    cursor: pointer;  
+  }
+
+
+  @media (hover: hover) {
+  .link:hover {
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .link:hover {
+    background-color: hsl(0, 0%, 0%);
+    color: rgb(255, 255, 255);
+    transition: 0.4s;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    }
+}
+
+</style>
