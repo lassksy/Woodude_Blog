@@ -5,24 +5,24 @@
             </h1>
 
             <div class="about-all">
-                <div class="image-overlay1"></div>
-                <div class="image-overlay2"></div>
-                <div class="icon-background">
+               <div class="about-image">
+                    <div class="icon-background">
                     <img src="/src/assets/Profile.jpeg" alt="">
-
                 </div>
-
-
-                <div class="about-image">
                     <img src="/src/assets/Profile.jpeg" alt="">
+                <div class="about-text-icon">
+                    <h1 cla>
+                       Hi! Im Woodude 
+                    </h1>
+                </div>
+                  
                 </div>
                 <div class="about-text">
-                    <h2>Learing about</h2>
-                    <p>Swift,Vue,React,C#</p>
+                    
+                  
                     <h2> Find me at</h2>
                     <p><ul>
                         <li>
-                            <svg t="1710055803407" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="1466" width="200" height="200"><path d="M51.57 672.155c3.72-6.605 52.236-29.956 126.057 57.307 0.186 0 0.465 0.14 0.79 0.419 5.21 4.326 29.538 39.26 43.307 51.865 58.935 53.307 147.083 12.001 157.13 6.047 4.652-38.282 19.025-68.378 43.027-90.52a290.072 290.072 0 0 1-64.052-10.047 203.832 203.832 0 0 1-61.029-18.048 168.852 168.852 0 0 1-58.052-29.165c-17.35-9.35-33.677-23.444-49.027-42.237a205.367 205.367 0 0 1-40.004-58.284c-10.698-20.095-19.071-45.911-25.072-77.356-6-28.84-8.977-62.005-8.977-99.543 0-68.983 22.979-129.64 69.076-181.924-2.745-5.395-33.026-77.17 7.907-179.969 55.447-1.954 115.173 23.49 185.226 68.332A925.198 925.198 0 0 1 547.008 46.89c56.936 1.907 113.592 9.303 169.132 22.142C739.49 54.984 821.637-1.3 900.249 2.747c37.678 89.45 11.024 170.154 6.977 178.9 46.05 46.236 69.076 104.846 69.076 175.875v6.047c0.326 5.024 0.512 10.094 0.512 15.118 0 27.77-3.163 55.958-9.536 84.473a349.24 349.24 0 0 1-25.025 77.402 282.816 282.816 0 0 1-39.027 57.26 367.242 367.242 0 0 1-49.028 41.26c-18.42 10.56-37.445 20.002-57.074 28.142a1890.865 1890.865 0 0 1-61.076 18.048 1650.986 1650.986 0 0 0-64.052 10.048c30.05 25.49 45.4 66.982 46.05 124.662a3242.148 3242.148 0 0 0-0.464 55.54c0 19.583 0.186 40.282 0.465 62.052-0.651 21.444-0.93 37.724-0.93 48.795 0 11.07 0.279 16.931 0.93 17.536a677.27 677.27 0 0 1-159.084 20.048h-14.978c-54.424 0-107.452-6.651-159.177-20.14-0.698-0.652-0.977-39.214-0.977-115.546-20.7 4.652-157.037 31.538-217.508-69.913-19.304-30.05-35.351-103.405-100.753-136.152-6.93 18.048-28.84 2.652-14-10.047z" fill="#333333" p-id="1467"></path></svg>
                             <a class="action-text" href="">Github</a>
                         </li>
                     </ul>
@@ -41,22 +41,38 @@
     .about-main {
         margin: 25px;
     }
-    .about-all {
+    .about-image {
         display: flex;
+        text-align: center;
         justify-content: center;
         
+    }
+    
+    .about-text {
+        margin-top: 5rem;
+        text-align: center;
     }
 
 
     .icon-background {
+
     z-index: -1;
-    left: 20rem;
+    height: 100%;
     position: absolute;
     border-radius: 320px;
     filter: blur(68px);
     }
     img {
+        border: solid 10px;
+        height: 50%;
         border-radius: 300px;
+    }
+
+    .about-text-icon {
+        width: 4rem;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 1.5rem;
+        padding-left: 3rem;
     }
 
 
@@ -72,10 +88,8 @@
         margin: auto;
         font-size: 1.2rem;
     }
-
-    
-    .icon {
-        height: 24px;
-        width: 24px;
+    li {
+        list-style: none;
     }
+
 </style>
