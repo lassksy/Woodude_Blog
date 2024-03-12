@@ -25,9 +25,9 @@
                             </p>
                         </div>
                     </section>
-                    <div class="show-app">
+                    <!-- <div class="show-app">
                             <img src="/src/assets/Lunar S.avif" alt="macapp">
-                    </div>
+                    </div> -->
             </article>
 
 
@@ -54,9 +54,9 @@
                             </p>
                         </div>
                     </section>
-                    <div class="show-app">
+                    <!-- <div class="show-app">
                             <img src="/src/assets/Lunar S.avif" alt="macapp">
-                    </div>
+                    </div> -->
             </article>
 
 
@@ -83,9 +83,9 @@
                             </p>
                         </div>
                     </section>
-                    <div class="show-app">
+                    <!-- <div class="show-app">
                             <img src="/src/assets/Lunar S.avif" alt="macapp">
-                    </div>
+                    </div> -->
             </article>
             
         </div>

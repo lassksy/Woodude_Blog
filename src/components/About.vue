@@ -23,7 +23,7 @@
                     <h2> Find me at</h2>
                     <p><ul>
                         <li>
-                            <a class="action-text" href="">Github</a>
+                            <a class="action-text" href="https://github.com/lassksy">Github</a>
                         </li>
                     </ul>
                 </p>

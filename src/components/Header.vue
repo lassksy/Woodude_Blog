@@ -5,8 +5,8 @@
         Woodude./Blog
       </a>
         <div class="site-links">
-        <a class="link">Home</a>
-        <a class="link">Blog</a>
+        <a class="link" href="/">Home</a>
+        <a class="link" href="https://www.woodude.top/">Blog</a>
         <a class="link">Notes</a>
         <a class="link">Rss</a>
 
@@ -43,6 +43,7 @@
   .link {
     margin-left: 20px;
     padding: 5px;
+    text-decoration: none;
   }
   .link:hover {
     
